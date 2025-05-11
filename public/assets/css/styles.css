@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d1b5ff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav h1 {
+    margin: 0.5rem 0;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.carousel {
+    max-width: 1300px;
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sobre-aluno {
+    text-align: center;
+  }
+  
+  .sobre-aluno .row {
+    justify-content: center;
+  }
+  
+  .sobre-aluno .col-md-8 {
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+.foto-descricao {
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .foto-container {
+    transition: transform 0.3s ease;
+  }
+  
+  .foto-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sobre-aluno .col-md-4 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 2rem;
+  }
+  
+  .sobre-aluno h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #detalhes-container .card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#detalhes-container .card img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#fotos-vinculadas .row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#fotos-vinculadas img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+  
+  @media (min-width: 768px) {
+    .sobre-aluno .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .sobre-aluno .col-md-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+      margin-top: 0;
+    }
+    
+    .sobre-aluno .col-md-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+      margin-top: 0;
+      text-align: left; 
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .foto-descricao {
+      font-size: 0.95rem;
+      padding: 8px;
+    }
+    
+    .carousel-caption {
+      padding: 15px;
+    }
+  }
+
+
+
+@media (max-width: 768px) {
+    .carousel img {
+        height: 300px;
+    }
+}
