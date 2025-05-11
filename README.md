@@ -4,10 +4,10 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Anderson Rungue Filho
+- Matricula:891955
+- Proposta de projeto escolhida:Catálogo de Filmes
+- Breve descrição sobre seu projeto: Projeto de catalogo de Filmes, dessa vez fazendo alterações para ultilização de um servidor e automatizando a busca de dados atraves de API
 
 **Print do teste da API com visualização do JSON**
 
