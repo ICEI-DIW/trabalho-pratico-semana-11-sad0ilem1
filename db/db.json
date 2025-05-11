@@ -1,26 +1,67 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "teste estruturas de dados 1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "A Lenda do Hetoi",
+      "imagem": "https://picsum.photos/id/1015/800/400",
+      "sinopse": "Uma história sobre a lenda do Hetoi.",
+      "elenco": "Hetoi, Kat",
+      "fotos": [
+        {
+          "url": "https://picsum.photos/id/1015/800/400",
+          "descricao": "Cena principal do filme mostrando Hetoi"
+        },
+        {
+          "url": "https://picsum.photos/id/1016/800/400",
+          "descricao": "Momento de ação entre Hetoi e Kat"
+        },
+        {
+          "url": "https://picsum.photos/id/1018/800/400",
+          "descricao": "Paisagem do vilarejo onde ocorre a história"
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-      
+      "id": 2,
+      "titulo": "Chamas do Futuro",
+      "imagem": "https://picsum.photos/id/1025/800/400",
+      "sinopse": "O futuro em chamas, luta pela sobrevivência.",
+      "elenco": "Carbonara Castro, Master Yi",
+      "fotos": [
+        {
+          "url": "https://picsum.photos/id/1015/800/400",
+          "descricao": "Master"
+        },
+        {
+          "url": "https://picsum.photos/id/1016/800/400",
+          "descricao": "yi"
+        },
+        {
+          "url": "https://picsum.photos/id/1018/800/400",
+          "descricao": "Carbono"
+        }
+      ]
     },
     {
-      "id": "teste estruturas de dados 2",
-      "login": "teste2",
-      "senha": "123",
-      "nome": "teste2 do Sistema",
-      "email": "2@abc.com"
+      "id": 3,
+      "titulo": "Hora de Aventura",
+      "imagem": "https://picsum.photos/id/1035/800/400",
+      "sinopse": "Garoto mágico e cachorro comum explorando terras mágicas.",
+      "elenco": "Jake o Humano, Finn o Cachorro",
+      "fotos": [
+        {
+          "url": "https://picsum.photos/id/1019/800/400",
+          "descricao": "Foto do finn com seu humano"
+        },
+        {
+          "url": "https://picsum.photos/id/1016/800/400",
+          "descricao": "cenario incrivel"
+        },
+        {
+          "url": "https://picsum.photos/id/1018/800/400",
+          "descricao": "foto do paisem"
+        }
+      ]
     }
   ]
 }

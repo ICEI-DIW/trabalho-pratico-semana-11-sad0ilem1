@@ -115,11 +115,15 @@ main {
   }
 
   #detalhes-container .card {
+    justify-content: center;
     max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
 }
-
+.mb-5{
+    
+    justify-content: center;
+}
 #detalhes-container .card img {
     max-height: 500px;
     object-fit: cover;
